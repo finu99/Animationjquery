@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<button>Start Animation</button>
+
+
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;">HELLO</div>
+<script> 
+    // $(document).ready(function(){
+      // $("button").click(function(){
+      //   $("div").animate({left: '250px'});
+      // });
+    // });
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("div").animate({
+          left:'500px',
+          opacity:'0.4',
+          height:'500px',
+          width:'250px'
+        });
+      });
+    });
+    </script> 
+</body>
+
+</html>
